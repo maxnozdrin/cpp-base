@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tests\test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\patterns\singleton.cpp">
+      <Filter>src\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\standards\cpp14.cpp">
+      <Filter>src\standards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\standards\cpp17.cpp">
+      <Filter>src\standards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\standards\cpp20.cpp">
+      <Filter>src\standards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\standards\cpp11.cpp">
+      <Filter>src\standards</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{31f96a6d-f5f6-4075-b66b-28437290a216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\standards">
+      <UniqueIdentifier>{d9e862ca-4985-4f34-bedd-44da6aa17e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\patterns">
+      <UniqueIdentifier>{3a47c357-08fc-4f18-a4cf-31bc690fa099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{100e89d1-cf40-4ba9-9131-c284e2395123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\patterns\singleton.h">
+      <Filter>src\patterns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
