@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="tests\test.cpp">
-      <Filter>tests</Filter>
-    </ClCompile>
     <ClCompile Include="src\patterns\singleton.cpp">
       <Filter>src\patterns</Filter>
     </ClCompile>
@@ -18,6 +15,15 @@
     </ClCompile>
     <ClCompile Include="src\standards\cpp11.cpp">
       <Filter>src\standards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\testcpp14.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test.cpp">
+      <Filter>tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +46,9 @@
   <ItemGroup>
     <ClInclude Include="src\patterns\singleton.h">
       <Filter>src\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\standards\cpp14.h">
+      <Filter>src\standards</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
