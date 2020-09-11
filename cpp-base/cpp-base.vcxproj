@@ -48,6 +48,7 @@
   <ItemGroup>
     <ClInclude Include="src\patterns\singleton.h" />
     <ClInclude Include="src\standards\cpp14.h" />
+    <ClInclude Include="src\standards\cpp17.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

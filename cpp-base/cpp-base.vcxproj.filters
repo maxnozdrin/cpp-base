@@ -50,5 +50,8 @@
     <ClInclude Include="src\standards\cpp14.h">
       <Filter>src\standards</Filter>
     </ClInclude>
+    <ClInclude Include="src\standards\cpp17.h">
+      <Filter>src\standards</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

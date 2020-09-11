@@ -3,6 +3,6 @@
 
 TEST(TestCpp14, test)
 {
-	int s = sum(10);
+	int s = cpp14::sum(10);
 	EXPECT_EQ(s, 100);
 }
